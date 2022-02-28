@@ -1,0 +1,5 @@
+metier/IMetier.class
+metier/IMetierImpl.class
+IDao/IDaoImpl.class
+pres/Presentation.class
+IDao/IDAO.class
