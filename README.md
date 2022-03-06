@@ -10,7 +10,7 @@
  
 **tp:one:: IOC & DI:**
 <br>
-l'injection des dépendances :<br>
+   >l'injection des dépendances :<br>
 - [x] [par l'instanciation statique](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_1)<br>
       
     ```java
@@ -73,4 +73,4 @@ l'injection des dépendances :<br>
     - Le Setter
     - Attribut (accès direct à l'attribut : Field)
 
-:copyright:created with ❤ by Mohamed boujdi
+        ###### :copyright:created with ❤ by Mohamed boujdi
