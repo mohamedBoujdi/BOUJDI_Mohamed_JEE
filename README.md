@@ -49,10 +49,16 @@
   
     ```java
         public static void main(String[] args) {
-              System.out.println("version d'injection par XML");
-              ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
-              IMetier metier= (IMetier) context.getBean("metier");
-                 System.out.println(metier.calcul()); }
+        System.out.println("version d'injection par XML via setter");
+        ApplicationContext context1= new ClassPathXmlApplicationContext("applicationContext1.xml");
+        IMetier metier1= (IMetier) context1.getBean("metier1");
+        System.out.println(metier1.calcul());
+
+        System.out.println("version d'injection par XML via constructeur");
+        ApplicationContext context2= new ClassPathXmlApplicationContext("applicationContext2.xml");
+        IMetier metier2= (IMetier) context2.getBean("metier2");
+        System.out.println(metier2.calcul());
+    }
                  
   - Version annotations
   
