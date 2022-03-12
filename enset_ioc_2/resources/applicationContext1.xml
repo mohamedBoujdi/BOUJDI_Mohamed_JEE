@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="d" class="IDao.IDaoImpl"></bean>
+    <bean id="metier1" class="metier.IMetierImpl">
+        <!--injection de dépencdence par la méthode  setxxx() via fichier de config xml -->
+        <property name="iDao" ref="d"/>
+    </bean>
+
+</beans>
