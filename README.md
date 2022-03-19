@@ -81,8 +81,14 @@
    
 **tp :two:: JPA, Hibernate et Spring Data**
 
-   **Reprendre les exemples de mapping objet relationnel avec JPA, Hibernate et Spring Data**
-  - [ ] Cas  de Patient, Medecin, Rendez-vous, Consultation
+   **Reprendre :recycle: les exemples de mapping objet relationnel avec JPA, Hibernate et Spring Data**
+  - [x] Cas  de Patient, Medecin, Rendez-vous, Consultation
+  
+      | ![diag_class](https://user-images.githubusercontent.com/59446813/159123891-c5e43c8e-4e4e-4a7b-bd74-a7fae2c57617.png "diagramme de classe des entities d'un hôpital") |
+       |:--:|
+      | - Fig.1 - diagramme de classe des entities d'un hôpital |
+
+       
   - [ ] Cas de Users et Roles
   
    
