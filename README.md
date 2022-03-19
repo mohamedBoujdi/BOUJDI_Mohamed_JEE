@@ -70,7 +70,7 @@
                 IMetier metier=ctx.getBean(IMetier.class);
                 System.out.println(metier.calcul());}
   
-**tp :two:: Mini framework d'injection dépendances**
+**tp :seedling:: Mini framework d'injection dépendances**
 
   - [ ] A travers un fichier XML de configuration en utilisant Jax Binding (OXM : Mapping Objet XML)
   - [ ] En utilisant les annotations
@@ -78,5 +78,12 @@
     - Le constructeur
     - Le Setter
     - Attribut (accès direct à l'attribut : Field)
+    
+**tp :two:: JPA, Hibernate et Spring Data**
 
-        ###### :copyright:created with ❤ by Mohamed boujdi
+   **Reprendre les exemples de mapping objet relationnel avec JPA, Hibernate et Spring Data**
+   
+    
+    
+
+        created with ❤ by Mohamed boujdi
