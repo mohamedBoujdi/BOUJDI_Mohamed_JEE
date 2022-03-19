@@ -11,7 +11,7 @@
 **tp:one:: IOC & DI:**
 <br>
    >l'injection des dépendances :<br>
-- [x] [par l'instanciation statique](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_1)<br>
+- [x] [par l'instanciation statique:link:](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_1)<br>
       
     ```java
       public static void main(String[] args) {
@@ -22,7 +22,7 @@
    
       
      
-- [x] [par l'instanciation dynamique](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_2)<br>
+- [x] [par l'instanciation dynamique:link:](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_2)<br>
 
      ```java
       public static void main(String[] args) {
@@ -44,7 +44,7 @@
         }}
     
 
-- [x] [en utilisant le framework Spring](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_1)<br>
+- [x] [en utilisant le framework Spring:link:](https://github.com/mohamedBoujdi/BOUJDI_Mohamed_JEE/tree/main/enset_ioc_1)<br>
   - Version XML
   
     ```java
@@ -68,7 +68,7 @@
                 ApplicationContext ctx=new AnnotationConfigApplicationContext("IDao","metier");
                 //ApplicationContext ctx=new ClassPathXmlApplicationContext("config.xml");
                 IMetier metier=ctx.getBean(IMetier.class);
-                System.out.println(metier.calcul());}
+                System.out.println(metier.calcul());}```
   
 **tp :seedling:: Mini framework d'injection dépendances**
 
@@ -78,12 +78,13 @@
     - Le constructeur
     - Le Setter
     - Attribut (accès direct à l'attribut : Field)
-    
+   
 **tp :two:: JPA, Hibernate et Spring Data**
 
    **Reprendre les exemples de mapping objet relationnel avec JPA, Hibernate et Spring Data**
+  - [ ] Cas  de Patient, Medecin, Rendez-vous, Consultation
+  - [ ] Cas de Users et Roles
+  
    
-    
-    
-
-        created with ❤ by Mohamed boujdi
+     ###### created with ❤ by Mohamed boujdi
+     
