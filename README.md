@@ -95,6 +95,50 @@
        | ![database tables](https://user-images.githubusercontent.com/59446813/159791359-4c1b8752-5a4d-43b3-b355-894401d20275.png) |
        |:--:|
        | - Fig.1 - les tables dans la base de données |
+       
+       **le bout de code:**
+       
+       ```java 
+             CommandLineRunner start(IHospitalServices iHospitalServices,Rendez_vousRepository rendezVousRepository){
+		return args -> {
+			//List.of(.....)
+			Stream.of("hassan".toUpperCase(),"khalid","fatima","fadwa").forEach(
+					p->{
+						Patient patient=new Patient();
+						patient.setName(p);
+						patient.setDate_naissance(Date.from(Instant.now()));
+						patient.setMalade(Math.random()>0.5);
+						iHospitalServices.savePatient(patient);
+					});
+			Stream.of("HHHHH","ggggg","gggggg","tttttt","rrrrrrrrr")
+					.forEach(
+							m->{
+								Medicine medicine=new Medicine();
+								medicine.setNom(m);
+								medicine.setEmail(m+"@gmail.com");
+								medicine.setSpecialite("chirurgien");
+
+								iHospitalServices.saveMedecine(medicine);
+							}
+					);
+
+
+			Consultation consultation=new Consultation();
+			consultation.setDateConsultation(Date.from(Instant.now()));
+			consultation.setPrixConsulatation(2221.4);
+			consultation.setRapportConsulatation("le rapport ......");
+			iHospitalServices.saveConsultation(consultation);
+			Rendez_vous rendezVous=new Rendez_vous();
+			rendezVous.setDateRendez_vous(Date.from(Instant.now()));
+			rendezVous.setStatutRDV(StatutRDV.PENDING);
+			rendezVous.setConsultation(consultation);
+			Rendez_vous rendezVous2=new Rendez_vous();
+			rendezVous.setDateRendez_vous(Date.from(Instant.now()));
+			rendezVous.setStatutRDV(StatutRDV.CANCELED);
+			rendezVous.setConsultation(consultation);
+			System.out.println(iHospitalServices.saveRendezVous(rendezVous2));
+			System.out.println(iHospitalServices.saveRendezVous(rendezVous)); 
+     
 
   - [ ] Cas de Users et Roles
   
