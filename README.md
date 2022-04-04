@@ -90,11 +90,11 @@
       
       | ![structure](https://user-images.githubusercontent.com/59446813/159788918-249293f3-ad65-4833-aece-b8718bacf70c.png)|
       |:--:|
-      | - Fig.1 - structure de projet hôpital |
+      | - Fig.2 - structure de projet hôpital |
        
        | ![database tables](https://user-images.githubusercontent.com/59446813/159791359-4c1b8752-5a4d-43b3-b355-894401d20275.png) |
        |:--:|
-       | - Fig.1 - les tables dans la base de données |
+       | - Fig.3 - les tables dans la base de données |
        
        **le bout de code:**
        
@@ -144,12 +144,16 @@
   
   **tp 3️⃣: Activité Pratique Spring MVC Thymeleaf**
   
-  ***une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients. L'application doit permettre les fonctionnalités suivantes :***
- - [ ] Afficher les patients
- - [ ] Faire la pagination
- - [ ] Chercher les patients
- - [ ] Supprimer un patient
- - [ ] Faire des améliorations supplémentaires
+  ***une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients. L'application doit permettre les fonctionnalités suivantes :[repo d'activité:link:](https://github.com/mohamedBoujdi/spring-mvc-thymeleaf)***
+ - [x] Afficher les patients
+ - [x] Faire la pagination
+ - [x] Chercher les patients
+ - [x] Supprimer un patient
+     | ![lister les patients](https://user-images.githubusercontent.com/59446813/161455429-ccbb0ce8-bdbf-4fc2-b4dd-3102212553af.png) |
+     |:--:|
+     | - Fig.1 - Afficher la liste des patients |
+     
+ - [x] Faire des améliorations supplémentaires
   
    
      ###### created with ❤ by Mohamed boujdi
