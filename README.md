@@ -176,13 +176,18 @@ L'application doit offrir les fonctionnalités suivantes :
   - [x] Sécuriser l'accès à l'application avec un système d'authentification basé sur Spring security en utilisant la stratégie UseDetails Service
   - [x] Ajouter d'autres fonctionnalités supplémentaires
   ***les captures d'écran***
-  **login**
-  ![Screenshot from 2022-04-18 00-45-56](https://user-images.githubusercontent.com/59446813/163738589-a05683fa-5026-4ba1-8660-996072f6c0b1.png)
+  
+   | ![Screenshot from 2022-04-18 00-45-56](https://user-images.githubusercontent.com/59446813/163738589-a05683fa-5026-4ba1-8660-996072f6c0b1.png) |
+   |:--:|
+   **login**
+  
+  | ![Screenshot from 2022-04-18 00-48-17](https://user-images.githubusercontent.com/59446813/163738668-915b7a96-bf77-405e-b302-4d8c15dd90a6.png) |
+  |:--:|
   **espace selon le rôle user/Admin** 
-  ![Screenshot from 2022-04-18 00-48-17](https://user-images.githubusercontent.com/59446813/163738668-915b7a96-bf77-405e-b302-4d8c15dd90a6.png)
+  
+  | ![Screenshot from 2022-04-18 00-50-00](https://user-images.githubusercontent.com/59446813/163738741-db0dfcc7-f4bd-4dad-b4a9-d3547a37e765.png) |
+  |:--:|
   **Ajouter les utilisateurs**
-  ![Screenshot from 2022-04-18 00-50-00](https://user-images.githubusercontent.com/59446813/163738741-db0dfcc7-f4bd-4dad-b4a9-d3547a37e765.png)
-
 
 
   
