@@ -188,6 +188,43 @@ L'application doit offrir les fonctionnalités suivantes :
   | ![Screenshot from 2022-04-18 00-50-00](https://user-images.githubusercontent.com/59446813/163738741-db0dfcc7-f4bd-4dad-b4a9-d3547a37e765.png) |
   |:--:|
   **Ajouter les utilisateurs**
+  
+   
+ **tp :five: une application Web basée sur Spring et Angular qui permet de gérer des comptes bancaires.[repo de projet:link:](https://github.com/mohamedBoujdi/Digital-banking-springboot-angular.)**
+
+Travail à faire :
+  - [x]  Créer et tester la couche DAO (Voir la vidéo : https://www.youtube.com/watch?v=muuFQWnCQd0)
+  ![Screenshot from 2022-05-30 18-15-54](https://user-images.githubusercontent.com/59446813/171052937-ab6181c6-d93e-4376-b28e-90111ed42ab8.png)
+
+  - [x]  Créer et tester la couche service
+  
+  - [x]  Créer et tester la couche Web (Rest Controller)
+![Screenshot from 2022-05-30 19-17-20](https://user-images.githubusercontent.com/59446813/171052881-a4376318-0a16-4d8b-94e3-f9811fa462d3.png)
+![Screenshot from 2022-05-30 19-17-42](https://user-images.githubusercontent.com/59446813/171052897-df8b6508-ac2f-4014-bfb1-140e1f72dc21.png)
+![Screenshot from 2022-05-30 19-17-55](https://user-images.githubusercontent.com/59446813/171052909-901d65ee-8037-40e0-9088-64decead0dfb.png)
+
+  - [x]  Modifier la couche service et la couche web  en utilisant les DTO
+  
+  - [x]  Créer un service d'authentification séparé basé sur Spring Security et JWT (Voir https://www.youtube.com/watch?v=3q3w-RT1sg0)
+
+  - [ ]  Sécuriser l'application Digital Banking en utilisant Spring Security et JWT
+ 
+  - [x]  Créer la partie Frontend Web en utilisant Angular
+
+  ![Screenshot from 2022-05-30 19-22-35](https://user-images.githubusercontent.com/59446813/171052653-1c858aaa-1759-42c1-be04-430f46f7bf70.png)
+
+  - [ ]  Créer la partie Frontend Mobile avec Flutter
+  
+  ![Screenshot from 2022-05-30 19-52-48](https://user-images.githubusercontent.com/59446813/171053555-bdfa1422-5f45-476f-acaf-0c1639df272b.png)
+ ![Screenshot from 2022-05-30 19-53-13](https://user-images.githubusercontent.com/59446813/171053561-c886c382-a090-4e48-bff1-cd3650c9a81a.png)
+ ![Screenshot from 2022-05-30 19-53-36](https://user-images.githubusercontent.com/59446813/171053575-73ade03e-0486-46b5-8679-cb820146187a.png)
+ ![Screenshot from 2022-05-30 19-53-48](https://user-images.githubusercontent.com/59446813/171053581-8aa8d278-7c32-480f-afb2-222d7ce1905b.png)
+ ![Screenshot from 2022-05-30 19-54-04](https://user-images.githubusercontent.com/59446813/171053607-c4843a8c-66b2-41f5-97bb-ee2dace3794b.png)
+![Screenshot from 2022-05-30 19-54-46](https://user-images.githubusercontent.com/59446813/171053624-c1e3cefb-58ac-4bb9-9e40-6c536304ec6b.png)
+![Screenshot from 2022-05-30 19-55-02](https://user-images.githubusercontent.com/59446813/171053633-92fa4de4-4419-4b8a-974c-66395db02ef8.png)
+
+  
+  
 
 
   
